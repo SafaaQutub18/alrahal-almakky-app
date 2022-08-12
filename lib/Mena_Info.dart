@@ -14,7 +14,7 @@ class Mena_Info extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: const AssetImage(''),
+                image: const AssetImage('Images/main_component/mainـbackground.png'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -22,7 +22,7 @@ class Mena_Info extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: const AssetImage(''),
+                image: const AssetImage('Images/second_level_info/menaa_information_background.png'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -33,7 +33,7 @@ class Mena_Info extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/second_level_info/boy_info2.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -45,7 +45,7 @@ class Mena_Info extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/second_level_info/hajj2_info.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -57,7 +57,7 @@ class Mena_Info extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/second_level_info/sughraa_info.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -70,7 +70,7 @@ class Mena_Info extends StatelessWidget {
               height: 152.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/second_level_info/alwustaa_info.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -82,7 +82,7 @@ class Mena_Info extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/second_level_info/kubraa_info.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -94,7 +94,7 @@ class Mena_Info extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/second_level_info/khayma_info.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -106,7 +106,19 @@ class Mena_Info extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/second_level_info/hasa_info.png'),
+                  fit: BoxFit.fill,
+                ),
+              ),
+            ),
+          ),
+          Pinned.fromPins(
+            Pin(size: 193.0, middle: 0.7180),
+            Pin(size: 193.0, end: 29.0),
+            child: Container(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: const AssetImage('Images/second_level_info/kubraa_info_text.png'),
                   fit: BoxFit.fill,
                 ),
               ),

@@ -14,7 +14,7 @@ class Haram_Info extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: const AssetImage(''),
+                image: const AssetImage('Images/main_component/mainـbackground.png'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -22,7 +22,7 @@ class Haram_Info extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: const AssetImage(''),
+                image: const AssetImage('Images/first_level_info/alharm_information_background.png'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -34,7 +34,7 @@ class Haram_Info extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/first_level_info/bir_zamzam_info.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -47,7 +47,7 @@ class Haram_Info extends StatelessWidget {
               height: 154.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/first_level_info/hejer_ismaeil_info.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -59,7 +59,7 @@ class Haram_Info extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/first_level_info/kaaba_info.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -72,7 +72,7 @@ class Haram_Info extends StatelessWidget {
               height: 154.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/first_level_info/maqam_ibarahim_info.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -84,7 +84,7 @@ class Haram_Info extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/first_level_info/boy_info1.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -96,7 +96,7 @@ class Haram_Info extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/first_level_info/kaaba_info_text.png'),
                   fit: BoxFit.fill,
                 ),
               ),

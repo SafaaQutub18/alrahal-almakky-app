@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'Haram_Info.dart';
+import 'Mena_Info.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home:  Haram_Info(),
+      home:  Mena_Info(),
     );
   }
 }
