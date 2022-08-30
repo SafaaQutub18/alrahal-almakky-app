@@ -20,6 +20,7 @@ class Haram_Info extends StatelessWidget {
             ),
           ),
           Container(
+
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: const AssetImage('Images/first_level_info/alharm_information_background.png'),
@@ -29,75 +30,77 @@ class Haram_Info extends StatelessWidget {
             margin: EdgeInsets.fromLTRB(15.0, 7.0, 16.0, 7.0),
           ),
           Pinned.fromPins(
-            Pin(size: 154.0, start: 92.0),
-            Pin(size: 154.0, middle: 0.2555),
+            Pin(size: MediaQuery.of(context).size.height/2, start: MediaQuery.of(context).size.width/25),
+            Pin(size: MediaQuery.of(context).size.height/2.2, start: MediaQuery.of(context).size.height/25),
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage('Images/first_level_info/bir_zamzam_info.png'),
-                  fit: BoxFit.fill,
+                  image: AssetImage('Images/first_level_info/bir_zamzam_info.png'),
+                  fit: BoxFit.contain,
                 ),
               ),
             ),
           ),
-          Align(
-            alignment: Alignment(-0.363, -0.489),
+          Pinned.fromPins(
+            Pin(size: MediaQuery.of(context).size.height/2, start: MediaQuery.of(context).size.width/4),
+            Pin(size: MediaQuery.of(context).size.height/2.2, start: MediaQuery.of(context).size.height/20),
             child: Container(
               width: 154.0,
               height: 154.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage('Images/first_level_info/hejer_ismaeil_info.png'),
-                  fit: BoxFit.fill,
+                  fit: BoxFit.contain,
                 ),
               ),
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 154.0, start: 92.0),
-            Pin(size: 154.0, middle: 0.7482),
+            Pin(size: MediaQuery.of(context).size.height/2, start: MediaQuery.of(context).size.width/25),
+            Pin(size: MediaQuery.of(context).size.height/2.2, start: MediaQuery.of(context).size.height/2),
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage('Images/first_level_info/kaaba_info.png'),
-                  fit: BoxFit.fill,
+                  fit: BoxFit.contain,
                 ),
               ),
             ),
           ),
-          Align(
-            alignment: Alignment(-0.363, 0.496),
+          Pinned.fromPins(
+            Pin(size: MediaQuery.of(context).size.height/2, start: MediaQuery.of(context).size.width/4),
+            Pin(size: MediaQuery.of(context).size.height/2.2, start: MediaQuery.of(context).size.height/2),
             child: Container(
               width: 154.0,
               height: 154.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage('Images/first_level_info/maqam_ibarahim_info.png'),
-                  fit: BoxFit.fill,
+                  fit: BoxFit.contain,
                 ),
               ),
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 428.0, end: 99.0),
-            Pin(start: 0.0, end: 0.0),
+            Pin(size: MediaQuery.of(context).size.width/1.9, start: MediaQuery.of(context).size.width/2),
+            Pin(size: MediaQuery.of(context).size.height/1.1, start: MediaQuery.of(context).size.height/2),
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage('Images/first_level_info/boy_info1.png'),
-                  fit: BoxFit.fill,
+                  fit: BoxFit.contain,
                 ),
               ),
             ),
           ),
           Pinned.fromPins(
-            Pin(size: 193.0, middle: 0.6317),
-            Pin(size: 193.0, end: 29.0),
+            Pin(size: MediaQuery.of(context).size.width/2.8, start: MediaQuery.of(context).size.width/2),
+            Pin(size: MediaQuery.of(context).size.height/2, start: MediaQuery.of(context).size.height/2),
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: const AssetImage('Images/first_level_info/kaaba_info_text.png'),
-                  fit: BoxFit.fill,
+                  fit: BoxFit.contain,
                 ),
               ),
             ),
