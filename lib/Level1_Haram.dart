@@ -89,7 +89,7 @@ class Level1_Haram extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            margin: EdgeInsets.fromLTRB(138.0, 45.0, 137.0, -15.0),
+            margin: EdgeInsets.fromLTRB(138.0, 45.0, 137.0, 15.0),
           ),
           Pinned.fromPins(
             Pin(size: 131.0, start: 4.0),
@@ -265,7 +265,7 @@ class Level1_Haram extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/first_level/Boy.png'),
                   fit: BoxFit.fill,
                 ),
               ),

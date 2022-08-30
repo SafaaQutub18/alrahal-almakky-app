@@ -1,7 +1,10 @@
+import 'package:alrahal_almaky_app/Level2_Mena.dart';
 import 'package:flutter/material.dart';
 
 import 'Haram_Info.dart';
 import 'Mena_Info.dart';
+import 'Level1_Haram.dart';
+import 'Level2_Mena.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +22,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home:  Mena_Info(),
+      home:  Level2_Mena(),
     );
   }
 }

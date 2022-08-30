@@ -14,7 +14,7 @@ class Level2_Mena extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: const AssetImage(''),
+                image: const AssetImage('Images/second_level/mainـbackground.png'),
                 fit: BoxFit.fill,
               ),
             ),
@@ -25,7 +25,7 @@ class Level2_Mena extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/main_component/points_icon.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -37,7 +37,7 @@ class Level2_Mena extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Images/main_component/help_icon.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -50,7 +50,7 @@ class Level2_Mena extends StatelessWidget {
               height: 60.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Image/main_component/Homepage_icon.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -63,7 +63,7 @@ class Level2_Mena extends StatelessWidget {
               height: 60.0,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Image/main_component/red_heart.png'),
                   fit: BoxFit.fill,
                 ),
               ),
@@ -85,11 +85,11 @@ class Level2_Mena extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: const AssetImage(''),
+                image: const AssetImage('Images/second_level/menaa_background.png'),
                 fit: BoxFit.cover,
               ),
             ),
-            margin: EdgeInsets.fromLTRB(138.0, 45.0, 137.0, -15.0),
+            margin: EdgeInsets.fromLTRB(138.0, 45.0, 137.0, 15.0),
           ),
           Pinned.fromPins(
             Pin(size: 132.0, start: 21.0),
@@ -109,7 +109,7 @@ class Level2_Mena extends StatelessWidget {
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: const AssetImage(''),
+                  image: const AssetImage('Image/main_component/boy.png'),
                   fit: BoxFit.cover,
                 ),
               ),

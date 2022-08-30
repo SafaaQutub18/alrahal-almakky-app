@@ -14,7 +14,7 @@ class Haram_Info extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: const AssetImage('Images/main_component/mainـbackground.png'),
+                image: const AssetImage(''),
                 fit: BoxFit.fill,
               ),
             ),
